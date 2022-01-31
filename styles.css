@@ -38,8 +38,8 @@ h3 {
   position: relative;
   background-color: black;
   transform-origin: top left;
-  transition: transform 0.5s linear;
-  width: 100vw;
+  transition: transform 0.5s linear; /* rotate smooth and not flick open*/
+  width: 100vw; /* take up the w and h viewports*/
   min-height: 100vh;
   padding: 50px;
 }
@@ -49,13 +49,13 @@ h3 {
 }
 
 .circle-container {
-  position: fixed;
+  position: fixed; /* the circle in the top left fixed position top and left with negative putting it half off screen */
   top: -100px;
   left: -100px;
 }
 
 .circle {
-  background-color: black;
+  background-color: black; /*create the the cirle position at relative to place the fa-a buttons in absolute position */
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -64,7 +64,7 @@ h3 {
 }
 
 .container.show-nav .circle {
-  transform: rotate(-70deg);
+  transform: rotate(-70deg); /* */
 }
 
 .circle button {
@@ -114,7 +114,7 @@ nav ul li {
   text-transform: uppercase;
   color: springgreen;
   margin: 40px 0;
-  transform: translateX(-100%);
+  transform: translateX(-100%); /*hide off screen on X axis */
   transition: transform 0.4s ease-in;
 }
 
@@ -140,7 +140,6 @@ nav ul li + li + li {
 }
 .content {
   max-width: 1100px;
-
   margin: 53px auto;
 }
 
