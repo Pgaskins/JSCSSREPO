@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0px;
+  text-align: center;
+  background: black;
+  color: springgreen;
+  font-size: 30px;
+}
+.bt1 {
+  color: springgreen;
+  border: solid springgreen;
+  background-color: black;
+}
+body {
+  background-color: black;
+  height: 100%;
+  margin-bottom: 20%;
+}
+h1 {
+  color: springgreen;
+}
+.column {
+  height: 100%;
+  display: flex;
+}
+
+form.form1 {
+  display: table;
+  margin-top: 5px;
+  margin-right: 100px;
+  color: springgreen;
+}
+
+div.tform {
+  display: table-row;
+}
+
+label,
+input {
+  display: table-cell;
+  margin-bottom: 10px;
+  border: solid springgreen;
+  color: springgreen;
+  background-color: black;
+}
+
+label {
+  padding-right: 10px;
+  background-color: black;
+}
+.levitate-body:after {
+  content: "__________";
+  margin: 10px 0 0 0;
+  color: #a0c2ce;
+  -webkit-filter: blur(2px);
+  margin-left: 50%;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: #a0c2ce;
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.levitate i {
+  color: black;
+  font: 700 50px Tahoma;
+  text-shadow: 0px 0px springgreen, 1px 1px springgreen, 2px 2px springgreen,
+    3px 3px springgreen, 4px 4px springgreen, 5px 5px springgreen,
+    6px 6px springgreen, 7px 7px springgreen, 8px 8px #819da6, 9px 9px black,
+    10px 10px springgreen, 11px 11px black, 12px 12px springgreen,
+    13px 13px black, 14px 14px springgreen, 15px 15px black,
+    16px 16px springgreen, 17px 17px black, 18px 18px springgreen,
+    19px 19px black, 20px 20px springgreen, 21px 21px springgreen,
+    22px 22px springgreen, 23px 23px black, 24px 24px black,
+    25px 25px springgreen, 26px 26px springgreen, 27px 27px springgreen,
+    28px 28px springgreen;
+}
+
+.levitate {
+  margin-left: 50%;
+  -webkit-animation-name: levitate;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out ease-in-out;
+}
+
+@-webkit-keyframes levitate {
+  from {
+    -webkit-transform: translate(0, 0px);
+  }
+  45% {
+    -webkit-transform: translate(0, 20px);
+  }
+  to {
+    -webkit-transform: translate(0, -0px);
+  }
+}

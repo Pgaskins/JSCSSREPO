@@ -1,0 +1,29 @@
+body,
+html {
+  background-color: black;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+nav {
+  background-color: black;
+}
+.a1 {
+  position: relative;
+  margin-left: 10px;
+}
+a {
+  color: rgb(61, 160, 164);
+  position: relative;
+  margin-left: 10px;
+}
+button {
+  color: cadetblue;
+  background-color: black;
+}
+audio {
+  opacity: 0.1;
+}
